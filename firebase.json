@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/eden-radio",
+    "public": "dist/eden-radio/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
