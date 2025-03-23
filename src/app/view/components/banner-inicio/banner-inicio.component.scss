@@ -1,0 +1,31 @@
+.hero {
+    background: url('../../../../../public/FOTO_PORTADA_NUEVA.webp') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/* Secciones con padding vertical */
+section {
+    padding: 60px 0;
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 768px) {
+    .hero {
+        background: url('../../../../../public/FOTO_FORMATO_CELULAR.webp') center / cover no-repeat;
+    }
+}
