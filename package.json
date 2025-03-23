@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:EdenRadio": "node dist/eden-radio/server/server.mjs",
-    "build:ssr": "ng build --configuration production && ng run EdenRadio:server:production"
+    "build:ssr": "ng build --configuration production && ng run EdenRadio:server:production",
+    "serve:ssr:EdenRadio": "node dist/eden-radio/server/main.js"
   },
   "private": true,
   "dependencies": {
