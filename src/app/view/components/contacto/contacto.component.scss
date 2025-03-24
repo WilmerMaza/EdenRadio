@@ -1,0 +1,26 @@
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    /* Espacio entre íconos */
+}
+
+/* En pantallas pequeñas, se organiza en columna */
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Opcional: efecto hover para agrandar ligeramente */
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
